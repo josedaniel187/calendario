@@ -3,6 +3,8 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-size: 20px;
+font-family: unset;
 }
 body, .contenedor 
 {
@@ -14,4 +16,36 @@ justify-content: center;
 body
 {
     min-height: 100vh;
+    background-color: navajowhite;
+}
+.contenedor >p
+{
+  
+    padding:20px 10px;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dia
+{
+background-color:red;
+ color: white;
+
+}
+.mes 
+{
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(236, 84, 84);
+    color: rgb(255, 255, 255);
+}
+.fecha
+{
+    background-color: white;
+    font-size: 70px;
+}
+.año
+{
+    background-color: rgba(255, 255, 255, 0.89);
 }
